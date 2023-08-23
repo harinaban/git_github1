@@ -1,1 +1,79 @@
-dummy
+Topics:
+
+CI/CD
+performance testing
+database testing
+API testing
+UI testing
+SQL
+git/github-
+
+git - version control
+github - web based application sit on top of GIT
+
+in local
+download git,visual studio or pycharm
+config the email & username:
+git config --global user.name "harinaban"
+git config --global user.email "harinaban@gmail.com"
+create a folder and clone the git using 
+"git clone https://github.com/harinaban/git_github.git"
+
+for new file addition and deletion we have to use all 3 steps
+git status
+git restore file name -- only restore if files not  staged ie before using add .
+git add filename--<add the modification to staging area
+git restore --staged filename -- to unstage the files
+git restore filename
+
+git commit -m "msg for commit"--commit all the changes to local git folder
+git push origin branch name---pushes to git hub
+
+to recover deleted file
+git rev-list HEAD -n 2 -- test3 -->displays 1 commit where the file last changed select 2nd commit
+git show commit -->wil display the commit action performed
+git checkout 2nd commit^ filename or .
+git commit -m "msg"
+git push
+
+
+git init --->its used to make a normal folder t git folder
+
+git add .  ->to add all modification
+
+git remote add origin https://github.com/harinaban/git_github1.git --> to add/connect the github to local
+
+git branch -->to display parent branch
+git branch -M master -->to change main branch name before commiting anything
+after that if we use git branch -M master1 then new branch will be created
+
+git branch master2 create new branch
+
+git branch -a --.to list all the branches
+
+git checkout master1 ->to move to another branch
+
+git diff master1 ->to give the difference between 2 branches and q to exit
+
+git merge master1--currently at master branch
+
+git pullrequest only available in github,to merge from another branch where main branch merge access is not available
+
+conflicts arised by pullrequest should be resolved by manually 
+
+github1s will open the github in visual code
+
+states
+untracked - new file
+modified - existing file changes done
+
+git log to view the modification history
+
+git reset commit hash-->to restore to a particular version of project
+
+git stash --> to keep the changes but not want to commit
+
+git stash pop --> to bring the changes back
+git stash clear -->to remove the uncommit/temp holding changes
+
+
