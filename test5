@@ -91,4 +91,6 @@ git reset --hard upstream/main -- this will reset and evens the commits of the m
 git pull upstream main - this will do the same as the above two commands-pull the data from upstream project in local only and
 we need to push it again to main of our branch to github inorder to keep it updated in both local and github
 
-git add .;git commit -m "msg" -->we can concatenate 2 commands using ;
+git add .;git commit -m "msg" -->we can concatenate 2 commands using ; working in linux
+
+git rebase -i <previous commit> from which u want to add the changes
