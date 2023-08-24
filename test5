@@ -64,6 +64,7 @@ One pullrequest at a time is possible for a branch,all commits will be added to 
 
 For another change we need to create another branch and raise a PR
 
+
 conflicts arised by pullrequest should be resolved by manually 
 
 github1s will open the github in visual code
