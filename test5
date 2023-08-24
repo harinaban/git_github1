@@ -60,6 +60,9 @@ git diff master1 ->to give the difference between 2 branches and q to exit
 git merge master1--currently at master branch
 
 git pullrequest only available in github,to merge from another branch where main branch merge access is not available
+one pullrequest at a time is possible for a branch,all commits will be added to that PR till its merged,
+
+for another change we need to create another branch and raise a PR
 
 conflicts arised by pullrequest should be resolved by manually 
 
