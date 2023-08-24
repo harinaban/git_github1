@@ -30,14 +30,14 @@ git commit -m "msg for commit"--commit all the changes to local git folder
 git push origin branch name---pushes to git hub
 
 to recover deleted file
-git rev-list HEAD -n 2 -- test3 -->displays 1 commit where the file last changed select 2nd commit
+git rev-list HEAD -n 2 -- test3 -->displays 2 commit where the file last changed, select 2nd commit
 git show commit -->wil display the commit action performed
 git checkout 2nd commit^ filename or .
 git commit -m "msg"
 git push
 
 
-git init --->its used to make a normal folder t git folder
+git init --->its used to make a normal folder to git folder
 
 git add .  ->to add all modification
 
@@ -51,7 +51,7 @@ git branch master2 create new branch
 
 git branch -a --.to list all the branches
 
-git checkout master1 ->to move to another branch
+git checkout master1 ->to move to another branch and move the head
 
 git diff master1 ->to give the difference between 2 branches and q to exit
 
@@ -67,12 +67,12 @@ states
 untracked - new file
 modified - existing file changes done
 
-git log to view the modification history
+git log to view the modification and commit history
 
 git reset commit hash-->to restore to a particular version of project
 
-git stash --> to keep the changes but not want to commit
 
+git stash --> to keep the changes but not want to commit
 git stash pop --> to bring the changes back
 git stash clear -->to remove the uncommit/temp holding changes
 
