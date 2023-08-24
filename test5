@@ -42,6 +42,8 @@ git init --->its used to make a normal folder to git folder
 git add .  ->to add all modification
 
 git remote add origin https://github.com/harinaban/git_github1.git --> to add/connect the github to local
+git remote -v ->displays all origin and upstream link attached to this project
+git remote add upstream <upstream link which was forked>
 
 git branch -->to display parent branch
 git branch -M master -->to change main branch name before commiting anything
@@ -76,4 +78,6 @@ git stash --> to keep the changes but not want to commit
 git stash pop --> to bring the changes back
 git stash clear -->to remove the uncommit/temp holding changes
 
+fork in github used to make a copy of another repos under our repo
 
+git push origin master1 -f -->force push if commit is not in github
