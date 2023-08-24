@@ -84,3 +84,11 @@ git stash clear -->to remove the uncommit/temp holding changes
 fork in github used to make a copy of another repos under our repo
 
 git push origin master1 -f -->force push if commit is not in github
+
+git fetch --all --prune-->this is  used to fetch all changes done in branch into main(prune - deleted also)
+git reset --hard upstream/main -- this will reset and evens the commits of the main branch with upstream branch
+
+git pull upstream main - this will do the same as the above two commands-pull the data from upstream project in local only and
+we need to push it again to main of our branch to github inorder to keep it updated in both local and github
+
+git add .;git commit -m "msg" -->we can concatenate 2 commands using ;
