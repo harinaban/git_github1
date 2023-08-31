@@ -91,7 +91,8 @@ git reset filename ->to reset the file status before addition to staged state
 
 git reset --> to reset multiple files
 git reset HEAD~1 --> previous commit will be reseted,HEAD -> current commit,~1 ->previous 1
-
+git checkout -- filename ---> to undo the changes
+git checkout -- . -->to undo all files
 
 git stash --> to keep the changes but not want to commit
 git stash pop --> to bring the changes back
@@ -114,4 +115,4 @@ git add .;git commit -m "msg" -->we can concatenate 2 commands using ; working i
 git rebase -i <previous commit> from which u want to add the changes
 
 git add .
-git commit -m "version 1" --amend  ->this will amend the changes to the previous version instead of creating a new commit
+git commit -m "version 1" --amend  ->this will amend/overwrite the changes to the previous version/commit instead of creating a new commit
