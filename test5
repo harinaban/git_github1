@@ -91,6 +91,9 @@ git reset filename ->to reset the file status before addition to staged state
 
 git reset --> to reset multiple files
 git reset HEAD~1 --> previous commit will be reseted,HEAD -> current commit,~1 ->previous 1
+
+git reset --> to reset multiple files
+git reset HEAD~1 --> previous commit will be reseted,HEAD -> current commit,~1 ->previous 1
 git checkout -- filename ---> to undo the changes
 git checkout -- . -->to undo all files
 
