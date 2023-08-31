@@ -119,3 +119,16 @@ git rebase -i <previous commit> from which u want to add the changes
 
 git add .
 git commit -m "version 1" --amend  ->this will amend/overwrite the changes to the previous version/commit instead of creating a new commit
+
+reset will move changes from staging to unstage area
+checkout --   will move the file back to normal state(unchanged version)
+
+how to add/select multiple specific files in add stage?
+how to move to recent HEAD again?
+
+
+to move backwards in remote for n commits as per local:
+
+git reset --hard HEAD~2(for exMPLE 2 COMMITS BACK)
+
+git push -f origin branch name
