@@ -16,6 +16,7 @@ download git,visual studio or pycharm
 config the email & username:
 git config --global user.name "harinaban"
 git config --global user.email "harinaban@gmail.com"
+git config --list -->to view the config changes
 create a folder and clone the git using 
 "git clone https://github.com/harinaban/git_github.git"
 
@@ -42,7 +43,8 @@ git init --->its used to make a normal folder to git folder
 git add .  ->to add all modification
 
 git remote add origin https://github.com/harinaban/git_github1.git --> to add/connect the github to local
-git remote -v ->displays all origin and upstream link attached to this project
+git remote add hari url
+git remote -v ->displays all origin and upstream link attached to this project(verify)
 git remote add upstream <upstream link which was forked>
 
 git branch -->to display parent branch
@@ -53,9 +55,14 @@ git branch master2 create new branch
 
 git branch -a --.to list all the branches
 
-git checkout master1 ->to move to another branch and move the head
+git branch -b bran_name --.to create new branches
 
-git diff master1 ->to give the difference between 2 branches and q to exit
+git branch -d bran_name --.to delete branches current branch cant be deleted without switching to another branch
+
+git checkout master1 ->to move to another branch and move the head
+git checkout -b brach_name - --will create and switch to another branch
+
+git diff master1 ->to give the difference between 2 branches,commits,files and q to exit
 
 git merge master1--currently at master branch
 
@@ -69,24 +76,35 @@ conflicts arised by pullrequest should be resolved by manually
 github1s will open the github in visual code
 
 states
-untracked - new file
+untracked - refers new file
 modified - existing file changes done
+staged - ready to commit
+unmodified - no change aftercommit before push
 
 git log to view the modification and commit history
 
-git reset commit hash-->to restore to a particular version of project
+git reset commit hash-->to restore to a particular version of project(multiple commits before)
+        -->this will reset only commit level changes will still be available in git status
+git reset --hard upstream/main -- this will reset and evens the commits of the main branch with upstream branch
+            -->this will apply the changes at code level
+git reset filename ->to reset the file status before addition to staged state
+
+git reset --> to reset multiple files
+git reset HEAD~1 --> previous commit will be reseted,HEAD -> current commit,~1 ->previous 1
 
 
 git stash --> to keep the changes but not want to commit
 git stash pop --> to bring the changes back
 git stash clear -->to remove the uncommit/temp holding changes
 
-fork in github used to make a copy of another repos under our repo
+fork in github used to make a copy of another repos under our repo-->rough copy
+untick "create master only" option will copy whole project
 
 git push origin master1 -f -->force push if commit is not in github
 
+-->origin means github repo link whose name can be changable -->master1 is branch name
+
 git fetch --all --prune-->this is  used to fetch all changes done in branch into main(prune - deleted also)
-git reset --hard upstream/main -- this will reset and evens the commits of the main branch with upstream branch
 
 git pull upstream main - this will do the same as the above two commands-pull the data from upstream project in local only and
 we need to push it again to main of our branch to github inorder to keep it updated in both local and github
@@ -94,3 +112,6 @@ we need to push it again to main of our branch to github inorder to keep it upda
 git add .;git commit -m "msg" -->we can concatenate 2 commands using ; working in linux
 
 git rebase -i <previous commit> from which u want to add the changes
+
+git add .
+git commit -m "version 1" --amend  ->this will amend the changes to the previous version instead of creating a new commit
