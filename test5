@@ -152,5 +152,11 @@ git commit -a -m"temp_det"-->-a commit only existing file modified not new file(
 
 
 local commited how to reset back --git reset --hard commit hash
-rebase,fetch - doubts,git pull
+rebase,fetch,tag - doubts,git pull
+https://linuxhint.com/howto_git_rebase/
+rebase is done when master branch is having any new commits than branch,when branch was created before doing changes in master at that time we need
+to do rebase from branch so all changes in master we can get in branch and subsequent commits in branch will also change,
+
+pull we can do when we are going to create a new branch from master at first,after branch created we can only use rebase
+
 how to see the changes in the file in git? --->git diff
