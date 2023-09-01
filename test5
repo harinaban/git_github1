@@ -1,12 +1,23 @@
 Topics:
-
-CI/CD
-performance testing
-database testing
-API testing
-UI testing
-SQL
-git/github-
+Postman
+REST Assured
+Automation Testing
+REST API
+Software Testing
+Mobile Testing
+Selenium WebDriver
+Quality Assurance
+Selenium Testing Framework
+SoapUI
+API
+JMeter
+Performance Testing
+Automation
+Jenkins
+RESTful Web Services
+Cypress.io
+Cucumber Software
+database testing-SQL
 
 git - version control
 github - web based application sit on top of GIT
@@ -39,7 +50,7 @@ git push
 
 
 git init --->its used to make a normal folder to git folder
-
+git init folder name
 git add .  ->to add all modification
 
 git remote add origin https://github.com/harinaban/git_github1.git --> to add/connect the github to local
@@ -63,6 +74,7 @@ git checkout master1 ->to move to another branch and move the head
 git checkout -b brach_name - --will create and switch to another branch
 
 git diff master1 ->to give the difference between 2 branches,commits,files and q to exit
+                    --> also to view the changes in the file in git window
 
 git merge master1--currently at master branch
 
@@ -123,12 +135,23 @@ git commit -m "version 1" --amend  ->this will amend/overwrite the changes to th
 reset will move changes from staging to unstage area
 checkout --   will move the file back to normal state(unchanged version)
 
-how to add/select multiple specific files in add stage?
-how to move to recent HEAD again?
+how to add/select multiple specific files in add stage?--git add -i  -->select option 2 and select required files and press enter it will automatically add the file just check status
+how to move to recent HEAD again?u can use git checkout commit -->to switch between HEAD and to return to origin al head git cheeckout <original_branchname>
 
-
-to move backwards in remote for n commits as per local:
+to move backwards in remote for n commits as per local/to match local commit with remote but remote is somewhat forward
 
 git reset --hard HEAD~2(for exMPLE 2 COMMITS BACK)
 
 git push -f origin branch name
+
+temp commit
+git checkout -b dummy
+git commit -a -m"temp_det"-->-a commit only existing file modified not new file(untracked),if -a used no need to use git add automatically stage
+
+
+
+local commited how to reset back --git reset --hard commit hash
+rebase,fetch - doubts,git pull
+how to see the changes in the file in git? --git diff
+
+
