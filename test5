@@ -160,3 +160,6 @@ to do rebase from branch so all changes in master we can get in branch and subse
 pull we can do when we are going to create a new branch from master at first,after branch created we can only use rebase
 
 how to see the changes in the file in git? --->git diff
+
+
+another line added
