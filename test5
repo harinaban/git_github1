@@ -161,5 +161,8 @@ pull we can do when we are going to create a new branch from master at first,aft
 
 how to see the changes in the file in git? --->git diff
 
+git fetch + git merge = git pull
+fetch only get info abt the commits that is added newly in remote(metadata)
+pull will download data
 
-another line added
+
