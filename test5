@@ -165,4 +165,16 @@ git fetch + git merge = git pull
 fetch only get info abt the commits that is added newly in remote(metadata)
 pull will download data
 
+git tags-->its like giving version number to the stable commit
+
+git tag v1.0
+git push origin --tags
+git push --tags
+git push origin v1.0
+
+git tag -d v1.0
+git push origin -d v1.0
+git tag v1.3 commithash ->particular commit
+git checkout -b brname v1.3
+
 
