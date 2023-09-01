@@ -93,7 +93,8 @@ modified - existing file changes done
 staged - ready to commit
 unmodified - no change aftercommit before push
 
-git log to view the modification and commit history
+git log to view the commit msg and commit history with hash
+git log --oneline -show in list format
 
 git reset commit hash-->to restore to a particular version of project(multiple commits before)
         -->this will reset only commit level changes will still be available in git status
