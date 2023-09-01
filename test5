@@ -153,6 +153,4 @@ git commit -a -m"temp_det"-->-a commit only existing file modified not new file(
 
 local commited how to reset back --git reset --hard commit hash
 rebase,fetch - doubts,git pull
-how to see the changes in the file in git? ----git diff
-
-
+how to see the changes in the file in git? --->git diff
