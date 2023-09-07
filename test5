@@ -27,6 +27,7 @@ download git,visual studio or pycharm
 config the email & username:
 git config --global user.name "harinaban"
 git config --global user.email "harinaban@gmail.com"
+git config --global alias.s "status"  -to give alias name
 git config --list -->to view the config changes
 create a folder and clone the git using 
 "git clone https://github.com/harinaban/git_github.git"
@@ -37,6 +38,8 @@ git restore file name -- only restore if files not  staged ie before using add .
 git add filename--<add the modification to staging area
 git restore --staged filename -- to unstage the files
 git restore filename
+
+
 
 git commit -m "msg for commit"--commit all the changes to local git folder
 git push origin branch name---pushes to git hub
@@ -95,6 +98,8 @@ unmodified - no change aftercommit before push
 
 git log to view the commit msg and commit history with hash
 git log --oneline -show in list format
+git log --all    ----to show before and after commits
+git log --all --graph    ----to show before and after commits with branching effect
 
 git reset commit hash-->to restore to a particular version of project(multiple commits before)
         -->this will reset only commit level changes will still be available in git status
@@ -109,6 +114,11 @@ git reset --> to reset multiple files
 git reset HEAD~1 --> previous commit will be reseted,HEAD -> current commit,~1 ->previous 1
 git checkout -- filename ---> to undo the changes
 git checkout -- . -->to undo all files
+git checkout <commit> to restore to a particular commit and if we do some changes and commit, it will create a new branch not from master
+                        will create from that particular commit hash
+
+git checkout <commi> . or git checkout <commi> <file\folder name>  -->will restore a particular commit on top of head and if we do some changes it will create new
+                branch on top of Head
 
 git stash --> to keep the changes but not want to commit
 git stash pop --> to bring the changes back
@@ -137,7 +147,7 @@ reset will move changes from staging to unstage area
 checkout --   will move the file back to normal state(unchanged version)
 
 how to add/select multiple specific files in add stage?--git add -i  -->select option 2 and select required files and press enter it will automatically add the file just check status
-how to move to recent HEAD again?u can use git checkout commit -->to switch between HEAD and to return to origin al head git cheeckout <original_branchname>
+how to move to recent HEAD again?u can use git checkout commit -->to switch between HEAD and to return to original head git checkout <original_branchname>
 
 to move backwards in remote for n commits as per local/to match local commit with remote but remote is somewhat forward
 
