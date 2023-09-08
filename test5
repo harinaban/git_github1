@@ -30,7 +30,7 @@ git config --global user.email "harinaban@gmail.com"
 git config --global alias.s "status"  -to give alias name
 git config --list -->to view the config changes
 create a folder and clone the git using 
-"git clone https://github.com/harinaban/git_github.git"
+"git clone https://github.com/harinaban/git_github.git" <folder name>
 
 for new file addition and deletion we have to use all 3 steps
 git status
@@ -39,7 +39,8 @@ git add filename--<add the modification to staging area
 git restore --staged filename -- to unstage the files
 git restore filename
 
-
+rm -rf .git will remove all files,commits
+git rm <filename> - to delete files
 
 git commit -m "msg for commit"--commit all the changes to local git folder
 git push origin branch name---pushes to git hub
@@ -56,11 +57,12 @@ git init --->its used to make a normal folder to git folder
 git init folder name
 git add .  ->to add all modification
 
+git remote add <name> <url>
 git remote add origin https://github.com/harinaban/git_github1.git --> to add/connect the github to local
 git remote add hari url
 git remote -v ->displays all origin and upstream link attached to this project(verify)
 git remote add upstream <upstream link which was forked>
-
+git remote remove <name>
 git branch -->to display parent branch
 git branch -M master -->to change main branch name before commiting anything
 after that if we use git branch -M master1 then new branch will be created
@@ -128,7 +130,7 @@ fork in github used to make a copy of another repos under our repo-->rough copy
 untick "create master only" option will copy whole project
 
 git push origin master1 -f -->force push if commit is not in github
-
+git push origin master --set-upstream   ->this will set origin master so next time we can use only git push
 -->origin means github repo link whose name can be changable -->master1 is branch name
 
 git fetch --all --prune-->this is  used to fetch all changes done in branch into main(prune - deleted also)
@@ -187,4 +189,5 @@ git push origin -d v1.0
 git tag v1.3 commithash ->particular commit
 git checkout -b brname v1.3
 
-
+rejected msg comes because commits are fast fwd in local compare to git hub,
+ at that time force push shd be used
