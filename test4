@@ -1,2 +1,28 @@
-git
-git 123
+in 2009 - devops coined
+developers and operation together,
+Infrastructure as code
+Google started in 2004,borg
+puppet-->chef-->ansible--configuration management system(infrastructure configuation to network config to
+application config database,installing and configuring everything)
+Docker ->  but docker will come ready with all the above things,prebuilt,
+Kubernetes -> google cloud-->used for running docker(seven of nine)
+github running on Kubernetes
+spinnaker - deploy the product on multiple cloud in multiple regions(hybrid cloud deployment tool)
+
+five pillar of Devops
+Cloud - AWS,AZURE,GLOUD Cloud
+containers - Docker + kubernetes (application with standard format as docker offers it can work the same way
+in laptop,datacenter environment,cloud..),docker offers 2 things define standard format + runtime to take that package and run in isolated environ
+Kubernetes help you to run application in multiple servers with one logical entity uses: scale your application,load balancing,high availability
+IAAC - Ansible,terraform,(create infrastructure(cloud provisioning ) top of AWS,AZURE
+CI/CD - Jenkins(pipeline as a code)+docker will provide clean and disposable environment
+observability - Infer the state of the system,tools to infer the issues based on  data,
+        3 practices-Logs,metrics,traces(how flow between one service to another can be funneled by traces)
+        makes application and infrastructure more observable
+        logs - elasticsearch,logstash-collects the logs,index it and visualize it,
+        metrics-prometheus(time series database with multiple dimension,grafana-visualizer)
+        traces - jaeger,zipkin
+
+
+
+
