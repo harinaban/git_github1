@@ -19,6 +19,8 @@ Cypress.io
 Cucumber Software
 database testing-SQL
 
+API/UI/Mobile/database/CI CD/Devops testing
+
 git - version control
 github - web based application sit on top of GIT
 
@@ -191,3 +193,5 @@ git checkout -b brname v1.3
 
 rejected msg comes because commits are fast fwd in local compare to git hub,
  at that time force push shd be used
+
+ssh key is used to connect our local to git without giving our password,instead using ssh key password
