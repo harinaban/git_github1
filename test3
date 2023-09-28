@@ -1,3 +1,28 @@
-third file
-second line
-third line
+Linux - collection of many operating system,
+
+day to day life we will be using Linux like POS machine,www,application
+cloud services are running in linux
+
+Linux - open source OS,modular OS so that we can add or remove the modules as we like
+Entire code base is modifiable and contributors are more for linux environment
+
+Open source Adv - Helps to reduce our cost in technology/software and improve our customer experience
+        control over the code base
+        training from community
+        no cost
+        security and stability
+
+types of Licence:
+    permissible lice - allow code reusability until copyrights are preserved.
+        to like groups
+        Ex: apache software licen
+    copyleft lic - allow code reusability free to all
+        Ex: GNU general publice licence
+
+red hat :
+    cloud based solution
+    web based servers
+    virtualization technology
+
+Kernel -
+    main brain of any OS

@@ -1,1 +1,13 @@
-this is second file and this is the firstline
+unicode--> combines all human language and represent in 0 & 1.uses 32bits which can
+give billion possiblities
+emoji -  4036991106--Face with Tears of Joy Emoji 😂
+
+
+input ->algorithm ->output
+
+To check a name in a phone book
+n - turn every page n search - double the time will take if more names are added in future
+n/2 -  turn 2 pages at a time -  50 % more time will take if more names are added in future
+log n - to split the phone book into half and search the word left or right ,and again split the book into
+    half,continue till we get an answer
+so one more step will be added if more names are added

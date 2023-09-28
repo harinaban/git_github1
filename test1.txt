@@ -1,1 +1,17 @@
-this is the first file
+CMMI - Capability Maturity model Integration
+Continous Integration ,continous delivery,continous deployment
+
+CI - sourcce code-->build-->run test-->report-->development-->commit-->source code....
+
+Cont delivery -- logical extension of CI,software is available for deployment at any time
+                mostly it will be manual approval to get deployed to production
+
+cont deploy  --- automated deploying code to production,Ex: Netflix,FB do many deployments daily
+
+deploy pipeline - automate all the stages(build,test,release)
+
+purpose pipeline:
+    all stakeholders can monitor
+    Reduces the overhead of manual process
+    provides quick feedback
+    Builds confidence on code quality
