@@ -1,0 +1,115 @@
+selnium -  refresh,if value is not found what will return,class name to take on,assert,hover the mouse on webelement,
+API - different error code and what we will do if error comes,404 error a,error code names,different protocols in API,RestFul API uses what protocols,
+linux - move between different directories and same folder,and basics,grep,PWD,scp
+python-dict,list- dict functions,array and list,list and tuple,namespace,
+Ruby - how well r u to adapt
+
+refresh - driver.navigate().refresh()
+return - empty list(findelements),nosuchelementexception(findelement)
+element - driver.find_element_by_xpath("")
+element.get_attribute("class")
+element.send_keys("hari")
+js.executescript(element.value = "hari")
+assert.assertequals(exp,actual)
+softassert.assertequals()
+switchto().alerts()
+switchto().window(handle)
+getwindowhandle()
+chmod 644 file.txt   owner - read(4),write(2),grp and other (only read)
+chmod o+t folder1  other cant delete(+t sticky bits) the direct
+
+ls -l detailed view of the file with file permission
+ls -a will display the hidden file
+./ execute a file
+bash to execute a file
+apt-get update
+apt-get upgrade
+apt-get install gedit
+
+shortcuts:
+Ctrl+ c - abort the running process
+l - clear terminal
+d - exit command
+ctrl+alt+d - minimize the windows
+u - to clear the line
+A - to go th start of the line
+e  - end of a line
+z - to suspend the process(fg to revert)
+ctrl+shift+c/v - copy paste
+
+scp [option] [username@][sourcehost:]file [username@][destination_host:]file2
+-C compress -r recursive copy(multiple files) -p port -i ssh key inclue
+scp -i path/to/ssh/key file.txt remote_username@remote_server:/home/file.txt
+scp -r localhost_dir/* remote_username@remote_server:/home
+scp remote_username@remote_server:/remote/path
+
+APi - Bussiness layer - mainly to test after full integration of sysytem
+Types - SOAP - simple object access protocol
+remote procedural call
+Representational state transfer(REST)
+
+What to test in API?
+end point testing - URL responses correct status code
+request methods: GET,PUT,Delete,Post,Patch - returns indendent information
+data validation like data,formats,values recived are correct
+error handling:invalid input or authentication failure(authorized and unauthorised access)
+Load/latecy testing:
+
+types of error:
+incorrect response data
+security issue
+reliablity issue-unable to connect to server
+
+test case types:
+return value based
+trigger another API
+update data api
+
+
+WELCOME TO SUN SMART SYSTEMS
+info Sun Smart Systems2:29 PM
+1. Create a dictionary by extracting the keys from a given dictionary
+sample_dict = {
+    "name": "Kelly",
+    "age": 25,
+    "salary": 8000,
+    "city": "New york"}
+# Keys to extract
+keys = ["name", "salary"]
+op:
+{'name': 'Kelly', 'salary': 8000}
+info Sun Smart Systems2:39 PM
+2. Delete a list of keys from a dictionary
+
+ sample_dict = {
+    "name": "Kelly",
+    "age": 25,
+    "salary": 8000,
+    "city": "New york"
+}
+# Keys to remove
+keys = ["name", "salary"]
+op:
+{'city': 'New york', 'age': 25}
+info Sun Smart Systems2:48 PM
+3. Check if a value exists in a dictionary
+
+sample_dict = {'a': 100, 'b': 200, 'c': 300}
+info Sun Smart Systems2:51 PM
+4. Rename key of a dictionary
+
+sample_dict = {
+    "name": "Kelly",
+    "age": 25,
+    "salary": 8000,
+    "city": "New york"
+}
+
+Not able to answer:
+tuple,set,list real time example - cordinates,RGB--set of players,email id--shopping cart[{item:"phone",price:"100"}]
+picking,unpicking - in neural network object to byte stream serialization and vice versa
+background in BDD - set of lines which can be reused by all other scenarios,set up a common context or preconditions for a group of scenarios.
+scenario outline - can be used to run the same Scenario multiple times, with different combinations of values(template)
+defect triage meeting? - meeting where stakeholders will list down all existing defect ,prioritize it based on priority and severity and assign to team
+grep -l to get the files in a particular directory -Find all the files in a directory with name
+
