@@ -3,6 +3,7 @@ API - different error code and what we will do if error comes,404 error a,error 
 linux - move between different directories and same folder,and basics,grep,PWD,scp
 python-dict,list- dict functions,array and list,list and tuple,namespace,
 Ruby - how well r u to adapt
+BDD - Basics
 
 refresh - driver.navigate().refresh()
 return - empty list(findelements),nosuchelementexception(findelement)

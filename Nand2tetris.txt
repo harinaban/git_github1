@@ -1,0 +1,6 @@
+Truth table to function is necessary then only we can able to construct hardware,based on gates
+Or gate can be expressed with AND and NOT - x OR y = NOT (x AND y)
+AND and NOT can also be represent by  NAND =
+    NOT(x) = x NAND X
+    AND(A,Y) = NOT(XNANDY)
+so NAND alone is enough to represent any logical expression

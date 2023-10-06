@@ -1,0 +1,2 @@
+REPL - read the code,Evaluate the code,Print the ouput and loop thru anotherline of code
+    Jupyter is REPL

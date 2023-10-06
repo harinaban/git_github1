@@ -1,0 +1,34 @@
+Topics:
+Postman
+REST Assured
+Automation Testing
+REST API
+Software Testing
+Mobile Testing
+Selenium WebDriver
+Quality Assurance
+Selenium Testing Framework
+SoapUI
+API
+JMeter
+Performance Testing
+Automation
+Jenkins
+RESTful Web Services
+Cypress.io
+Cucumber Software
+database testing-SQL
+
+Web Testing
+Mobile Testing
+API Testing
+Test Rail
+Appium
+selenium
+RestAssured
+TestNG
+Cucmber
+Jenkins
+
+
+API/UI/Mobile/database/CI CD/Devops testing
